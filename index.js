@@ -12,7 +12,7 @@ dotenv.config(
 const app = express()
 app.use(cors(
     {
-        origin: "https://crud-client-5z4mwev9p-qasimahmad55s-projects.vercel.app/",
+        origin: "https://crud-client-5z4mwev9p-qasimahmad55s-projects.vercel.app",
         credentials: true
     }
 ))
