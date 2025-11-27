@@ -58,6 +58,6 @@ app.delete("/deleteUser/:id", (req, res) => {
         .then(users => res.json(users))
         .catch(err => res.json(err))
 })
-app.listen(8000, () => {
-    console.log("Server is running at 8000");
+app.listen(process.env.PORT || 8000, () => {
+    console.log("Server is running");
 })
